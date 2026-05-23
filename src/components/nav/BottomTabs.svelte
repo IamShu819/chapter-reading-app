@@ -72,7 +72,7 @@
   .tab.active::after {
     content: '';
     position: absolute;
-    bottom: 4px;
+    bottom: calc(4px + var(--safe-bottom));
     left: 50%;
     transform: translateX(-50%);
     width: 20px;
